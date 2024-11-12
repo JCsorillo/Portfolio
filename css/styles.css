@@ -4297,30 +4297,7 @@ td:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.ss-copyright a {
-    color: var(--color-gray-5);
-}
-
-.ss-copyright a:focus,
-.ss-copyright a:hover {
-    color: var(--color-1);
-}
-
-.ss-copyright span {
-    display: inline-block;
-}
-
-.ss-copyright span::after {
-    content: "|";
-    display: inline-block;
-    padding: 0 0.8rem 0 1rem;
-    color  : rgba(255, 255, 255, 0.04);
-}
-
-.ss-copyright span:last-child::after {
-    display: none;
+    margin-left: 15%;
 }
 
 /* ------------------------------------------------------------------- 
