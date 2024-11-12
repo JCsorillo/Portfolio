@@ -4294,8 +4294,9 @@ td:last-child {
 .ss-copyright {
     margin     : 0 var(--vspace-2) 0 0;
     line-height: var(--vspace-0_875);
-    text-align: right;
-    margin-right: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ss-copyright a {
